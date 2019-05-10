@@ -88,7 +88,7 @@ tar -zcvf arch.tar.gz Documents/
 # unarchive: 
 tar -zxvf arch.tar.gz
 
-# How to search in multiple log files;
+# How to search in multiple log files:
 grep —include=\*.log -r ‘/lib/’ -e “pattern”
 grep something ./*
 
