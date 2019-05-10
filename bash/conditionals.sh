@@ -1,6 +1,6 @@
 #!/bin/bash
 # $1 -> first parameter
-# $# -> amoun of parameters
+# $# -> amount of parameters
 # $0 -> filename
 
 NAME=$1
