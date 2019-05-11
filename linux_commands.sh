@@ -15,6 +15,10 @@ du -sh /lib
 # Services:
 service jenkins status
 systemctl status jenkins
+systemctl start jenkins
+systemctl enable jenkins # start at boot
+systemctl disable jenkins # dont start at boot
+systemctl reload jenkins # re-read config without killing the process
 
 # Network:
 netstat -tulpn
