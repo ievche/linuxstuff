@@ -24,6 +24,14 @@ ps aux | grep nginx
 top 
 htop
 
+# List Open Files
+lsof
+lsof -i :80 # processes listening on port
+lsof -i tcp
+lsof -p 1111 # process id
+lsof -u root # files open by user
+lsof /lib/something/somelib # check what's dealing with a library/file
+
 # Mount volume:
 mount /dev/sda2 /mnt
 
