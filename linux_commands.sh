@@ -50,6 +50,9 @@ find ./GFG -name sample.txt
 ctrl + a
 # End 	
 ctrl + e
+# Step by word
+alt + f # forward
+alt + b # backward
 
 # Users:
 useradd -m -d /home/testuser -s /bin/bash <user_name> # -u <user_id> -g <group_id> 
